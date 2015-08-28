@@ -5,7 +5,6 @@ using System.Collections.Generic;
 
 public class LayerSelectionEditor :ScriptableWizard
 {
-
     [System.Serializable]
     public class LayerSelected
     {
@@ -71,7 +70,7 @@ public class LayerSelectionEditor :ScriptableWizard
         List<GameObject> allObjectsInScene = new List<GameObject>();
 
         // var objs = Selection.GetFiltered(typeof(GameObject), SelectionMode.Deep);
-        ////Object.FindObjectsOfType(typeof(GameObject)))
+        // Object.FindObjectsOfType(typeof(GameObject)))
         foreach (GameObject obj in Resources.FindObjectsOfTypeAll(typeof(GameObject)))
         {
             Debug.Log(obj.name);
@@ -113,16 +112,11 @@ public class LayerSelectionEditor :ScriptableWizard
         EditorGUILayout.EndHorizontal();
 
     }
-
    
     // Called when the 'save' button is pressed
     void OnWizardCreate()
     {
-        // .Net 2.0 Subset: smcs.rsp
-        // .Net 2.0: gmcs.rsp
-        // -define:debug;poop
     }
-
 
     void OnWizardOtherButton()
     {
