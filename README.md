@@ -4,6 +4,8 @@ Welcome to the LayerSelection wiki!
 
 Layer Selection Tool allows you easily select GameObjects in the scene based on selected layers.
 
+Now also on Unity Asset Store for free http://bit.ly/1FVwmnQ
+
 ![alt tag](http://i.imgur.com/TyKEWFW.png)
 
 Tool adapts to layers created in Unity editor.
